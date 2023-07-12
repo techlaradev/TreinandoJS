@@ -1,0 +1,41 @@
+//Testando operações booleanas
+
+
+/* == Igualdade (pode ser feito com caracteres e variáveis de tipo inteiro)
+===  Igualdade (pode ser feito somente com inteiro, é uma boa prática utilizar em contas aritméticas e bla bla)
+!= Desigualdade
+> Maior que 
+< Menor que
+
+*/
+let nm = 20;
+let ff = "Janela";
+//Diferença entre (num == 15) e (num === '15')
+
+console.log(nm == 15);console.log(nm ==='15');
+//o 15 estando entre as aspas curtas é interpretado como um caracter, e não como um número.
+
+//teste sem ser caracter. é uma boa prática o uso de 3 "=", para evitar bugs
+console.log("Ele é sem caracter",nm === 15);
+
+console.clear(); // DIQUINHA DE OURO PARA LIMPAR AUTOMÁTICAMENTE, e ocultar código no meio do processo kkj adoro
+
+console.log("eae mano");
+
+console.clear();
+
+/*Tradução da condição do laço: Se o nm for 15 ou
+ff for igual a janela, exibe "seu número é igual a 15! ou tu tem uma janela, não sabemos" */ 
+if (nm === 15 || ff == "Janela")
+{
+
+    console.log("seu número é igual a 15! ou tu tem uma janela, não sabemos");
+
+}
+
+else
+{
+
+    console.log("não é 15cm, mas Janela! :(");
+
+}
