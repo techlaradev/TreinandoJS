@@ -1,0 +1,22 @@
+/*Conversão de números, eita lele*/
+
+    //variável declarada para rodar o cd
+    let stri = 34;
+/* **conversão explícita**
+//declare uma variável que se converta em caracter (string)
+//obs: let stri =34;*/
+console.log(stri, typeof stri);
+
+const stringling = String(stri);
+console.log(stringling, typeof stringling);
+
+//foi declarada uma outra variáveis, que é constante, e converte STRI (tipo int) em STRINGLING (tipo string)
+//e se eu quiser tranformar em número, eu adiciono:
+console.log(Number('123'));
+
+console.clear()//limpadinha de leves, rs
+
+
+
+// **coeção implícita**
+console.log(15 + "75" ); //é só um comportamento bizarro que o js tem hahaha
